@@ -1,6 +1,6 @@
 # imgpx [![Version](https://img.shields.io/npm/v/imgpx.svg)](https://www.npmjs.com/package/imgpx) [![Downloads](https://img.shields.io/npm/dt/imgpx.svg)](https://www.npmjs.com/package/imgpx)
 
-> Get the image pixels in a friendly way.
+> Get a matrix of pixels of a given image.
 
 ## Installation
 
