@@ -1,0 +1,32 @@
+{
+  "name": "imgpx",
+  "version": "1.0.0",
+  "description": "Get the image pixels in a friendly way.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/imgpx.git"
+  },
+  "keywords": [
+    "image",
+    "pixels",
+    "remote",
+    "local"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/imgpx/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/imgpx#readme",
+  "dependencies": {
+    "lwip-pixels": "^1.0.0",
+    "lwipify": "^1.1.0"
+  }
+}
