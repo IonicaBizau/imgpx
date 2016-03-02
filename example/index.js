@@ -18,21 +18,16 @@ imgpx("https://octodex.github.com/images/original.png", {
 imgpx(`${__dirname}/octocat.png`, (err, pixels) => {
     console.log(err || pixels);
 });
-// [ [ { r: 0, g: 0, b: 0, a: 0 },
-//     { r: 0, g: 0, b: 0, a: 0 },
+// [ [ PixelClass { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 },
 //     ...
-//     { r: 0, g: 0, b: 0, a: 0 },
-//     { r: 0, g: 0, b: 0, a: 0 },
-//     { r: 0, g: 0, b: 0, a: 0 } ],
-//   ...
-//   [ { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 } ],
+//   [ PixelClass { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 },
 //     ...
-//     { r: 1, g: 1, b: 1, a: 100 },
-//     { r: 33, g: 27, b: 24, a: 100 },
-//     { r: 70, g: 58, b: 51, a: 100 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0.18 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0.12 },
 //     ...
-//     { r: 0, g: 0, b: 0, a: 0 } ],
-//   ...
-//   [ { r: 0, g: 0, b: 0, a: 0 },
-//     ...
-//     { r: 0, g: 0, b: 0, a: 0 } ] ]
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 } ],
+//   ... ]
