@@ -1,6 +1,6 @@
 {
   "name": "imgpx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get a matrix of pixels of a given image.",
   "main": "lib/index.js",
   "directories": {
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/IonicaBizau/imgpx#readme",
   "dependencies": {
     "lwip-pixels": "^1.0.0",
-    "lwipify": "^1.1.0"
+    "lwipify": "^2.0.0"
   }
 }
