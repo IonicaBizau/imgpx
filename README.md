@@ -1,14 +1,18 @@
+
 # imgpx [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/imgpx.svg)](https://www.npmjs.com/package/imgpx) [![Downloads](https://img.shields.io/npm/dt/imgpx.svg)](https://www.npmjs.com/package/imgpx) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get a matrix of pixels of a given image.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save imgpx
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const imgpx = require("imgpx");
@@ -31,27 +35,23 @@ imgpx("https://octodex.github.com/images/original.png", {
 imgpx(`${__dirname}/octocat.png`, (err, pixels) => {
     console.log(err || pixels);
 });
-// [ [ { r: 0, g: 0, b: 0, a: 0 },
-//     { r: 0, g: 0, b: 0, a: 0 },
+// [ [ PixelClass { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 },
 //     ...
-//     { r: 0, g: 0, b: 0, a: 0 },
-//     { r: 0, g: 0, b: 0, a: 0 },
-//     { r: 0, g: 0, b: 0, a: 0 } ],
-//   ...
-//   [ { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 } ],
+//   [ PixelClass { r: 0, g: 0, b: 0, a: 0 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 },
 //     ...
-//     { r: 1, g: 1, b: 1, a: 100 },
-//     { r: 33, g: 27, b: 24, a: 100 },
-//     { r: 70, g: 58, b: 51, a: 100 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0.18 },
+//     PixelClass { r: 0, g: 0, b: 0, a: 0.12 },
 //     ...
-//     { r: 0, g: 0, b: 0, a: 0 } ],
-//   ...
-//   [ { r: 0, g: 0, b: 0, a: 0 },
-//     ...
-//     { r: 0, g: 0, b: 0, a: 0 } ] ]
+//     PixelClass { r: 0, g: 0, b: 0, a: 0 } ],
+//   ... ]
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `imgpx(source, options, callback)`
 
@@ -62,13 +62,18 @@ imgpx(`${__dirname}/octocat.png`, (err, pixels) => {
  - `resize` (Array): An array of two numbers (`[width, height]`) used to resize the image. If not provided, the image will not be resized.
 - **Function** `callback`: The callback function.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`image-to-ascii`](https://github.com/IonicaBizau/image-to-ascii)—A Node.JS module that converts images to ASCII art.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
