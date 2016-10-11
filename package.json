@@ -1,6 +1,6 @@
 {
   "name": "imgpx",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Get a matrix of pixels of a given image.",
   "main": "lib/index.js",
   "directories": {
@@ -33,6 +33,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
