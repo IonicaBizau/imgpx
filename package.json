@@ -1,6 +1,6 @@
 {
   "name": "imgpx",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Get a matrix of pixels of a given image.",
   "main": "lib/index.js",
   "directories": {
@@ -19,7 +19,7 @@
     "remote",
     "local"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/imgpx/issues"
@@ -33,12 +33,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
