@@ -1,6 +1,6 @@
 {
   "name": "imgpx",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Get a matrix of pixels of a given image.",
   "main": "lib/index.js",
   "directories": {
@@ -39,6 +39,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
