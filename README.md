@@ -176,7 +176,7 @@ However, if you get some profit from this or just want to encourage me to contin
  - [![Support me on Patreon][badge_patreon]][patreon]—Set up a recurring monthly donation and you will get interesting news about what I'm doing (things that I don't share with everyone).
  - **Bitcoin**—You can send me bitcoins at this address (or scanning the code below): `1P9BRsmazNQcuyTxEqveUsnf5CERdq35V6`
 
-    ![](https://i.imgur.com/z6OQI95.png)
+    <img src="https://i.imgur.com/B5aGue9.png" width="100" height="100" />
 
 
 Thanks! :heart:
